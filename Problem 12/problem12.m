@@ -1,4 +1,4 @@
-tend = 1;
+tend = 10;
 tspan = [0,tend]; % Simulation length
 
 % Initial conditions

@@ -17,10 +17,10 @@ exitflag = 1;
 % Parameters and initial conditions
 rA = [5 0]';
 rB = [-5 0]';
-kA = 50; LA = 10; cA = 0;
-kB = 50; LB = 10; cB = 0;
-m = 1;
-g = 0;
+kA = 10; LA = 20; cA = 1;
+kB = 50; LB = 10; cB = 1;
+m = 100;
+g = 10;
 c = 0;
 
 % Inital guess
@@ -122,8 +122,8 @@ hold on
 text(rA(1), rA(2), 'A','FontSize',15)
 axis equal
 grid on
-xlim([-15,15])
-ylim([-15,15])
+% xlim([-15,15])
+% ylim([-15,15])
 text(rB(1), rB(2), 'B','FontSize', 15)
 title("Equilibrium points")
 xlabel("X axis")
